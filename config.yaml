@@ -33,7 +33,7 @@ params:
     - name: "github"
       url: "          https://github.com"
     - name: "linkedIn"
-      url: "         https://linkedin.com"
+      url: "         https://www.linkedin.com/in/mattias-holmgren-b2407714a/"
 
   workexp:
     - jobTitle: Junior software developer
@@ -51,7 +51,7 @@ params:
       description: For awhile before i found my passion in software development, i worked as a CMS admin for a SiteVision site.
 
   education:
-    - courseName:  BSc Computer Science, Software Engineering
+    - courseName: BSc Computer Science, Software Engineering
       color: red
       date: June 2018 - July 2021
       description: Descrption about red color trianing
@@ -82,14 +82,13 @@ params:
       description: Description
 
   languages:
-    - name: English
-      color: Blue
-      percentage: 50
-      #description:
-
-    - name: Gibberish
+    - name: Swedish
       percentage: 100
-      description: pasghettipigglywiggly
+      description: Mother's tongue
+
+    - name: English
+      percentage: 95
+      description: Second language
 
   projects:
     - title: Project Red
