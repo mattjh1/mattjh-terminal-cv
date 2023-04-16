@@ -1,0 +1,137 @@
+## Example Config file
+BaseURL: "https://example.com"
+theme: "terminalCV"
+title: "terminalCV"
+
+params:
+  description: "mattjh cv terminal format"
+  prompt: "boss@terminalcv"
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # hideSocialName: true
+  # exitLocation: 'about:blank'
+  # hidesource: true
+  greeting: |
+    Welcome to my online resume
+
+
+    Type 'help' for a list of available commands
+
+  whois:
+    name: "Mattias Holmgren"
+    profession: "Software Engineer"
+    location: "Kalmar, Sweden"
+    email: "mattias.holmgren46@gmail.com"
+    homelink: "https://myHomePage.com"
+    description: |
+      Passionate and hungry software engineer that loves to learn new things by the keyboard and also in the kitchen
+
+  social:
+    ## IF you want to keep them aligned just add spaces
+    - name: "github"
+      url: "          https://github.com"
+    - name: "linkedIn"
+      url: "         https://linkedin.com"
+
+  workexp:
+    - jobTitle: Junior software developer
+      color: red
+      company: "tietoevry"
+      location: Kalmar
+      date: August 2022 - Present
+      description: My first job as a software engineer after completed studies
+
+    - jobTitle: Web administrator
+      color: purple
+      company: "Botkyrka Kommun"
+      location: Stockholm
+      date: July 2016  - July 2018
+      description: For awhile before i found my passion in software development, i worked as a CMS admin for a SiteVision site.
+
+  education:
+    - courseName:  BSc Computer Science, Software Engineering
+      color: red
+      date: June 2018 - July 2021
+      description: Descrption about red color trianing
+
+  skills:
+    - name: Skill 1
+      percentage: 90
+      description: you can add a description
+
+    - name: Skill 2
+      percentage: 30
+      #description: or you can leave it comented
+
+    - name: Skill 3
+      color: blue
+      percentage: 50
+      description: Skill names can have colors too
+
+  softskills:
+    - name: SoftSkill 1
+      color: red
+      percentage: 80
+      #description:
+
+    - name: SoftSkill 2
+      #color:
+      percentage: 90
+      description: Description
+
+  languages:
+    - name: English
+      color: Blue
+      percentage: 50
+      #description:
+
+    - name: Gibberish
+      percentage: 100
+      description: pasghettipigglywiggly
+
+  projects:
+    - title: Project Red
+      color: red
+      date: since 2019
+      link: https://example.com
+      description: Describing red stuff
+
+    - title: Project Blue
+      color: blue
+      date: since 2016
+      link: https://example.com/blue
+      #description: nothing to describe
+
+    - title: Project Default
+      date: Since 2017
+      link: https://example.com/default
+      #description: not there either
+
+  certifications:
+    - certName: Example Cert
+      company: Example Certifying Company
+      date: Date of Completion
+      #description: Lorem Ipsum
+
+  misc:
+    #commandName: newcommand
+    title: "This Section can have a different command name"
+    titleColor: teal
+    content: |
+      Here the title and the content can have different colors
+      The content can be multi
+
+      line
+
+      And spaces       will be respected as well
+      This section will have the default command: misc
+      but you can name it something else with the property
+      commandName: <String>
+      Give it a shot and try and uncomment the line 
+      commandName: newcommand
+      now instead of misc you can execute the newcommand for this section
+      Auto completion will know it too! :D
+
+    contentColor: orange
