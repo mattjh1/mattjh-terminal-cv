@@ -1,7 +1,7 @@
 ## Example Config file
 BaseURL: "https://example.com"
-theme: "terminalCV"
-title: "terminalCV"
+theme: "terminalcv"
+title: "Mattjh CV"
 
 params:
   description: "mattjh cv terminal format"
