@@ -6,13 +6,13 @@ title: "terminalCV"
 params:
   description: "mattjh cv terminal format"
   prompt: "boss@terminalcv"
-  # promptColor: grey
-  # promptSimbols: ":~$"
+  promptColor: green
+  promptSimbols: ":~"
   # promptSimbolsColor: grey
   # startxLocation: https://example.com
   # hideSocialName: true
   # exitLocation: 'about:blank'
-  # hidesource: true
+  hidesource: true
   greeting: |
     Welcome to my online resume
 
@@ -24,19 +24,28 @@ params:
     profession: "Software Engineer"
     location: "Kalmar, Sweden"
     email: "mattias.holmgren46@gmail.com"
-    homelink: "https://myHomePage.com"
+    # homelink: "https://myHomePage.com"
     description: |
-      Passionate and hungry software engineer that loves to learn new things by the keyboard and also in the kitchen
+      Passionate, driven, and curious software engineer with a love for backend development,
+      AI, and a recent deep dive into prompt engineering. I thrive on learning new technologies
+      and methodologies to stay at the forefront of the ever-evolving tech landscape. 
+      Proficient in Python, Java, Node.js, and experienced with common frontend frameworks. 
+      Additionally, I have a solid understanding of Go and am well-versed in Git for effective source control. 
+      My commitment to continuous learning fuels my enthusiasm for tackling complex challenges and delivering innovative solutions.
+      I bring a well-rounded AWS knowledge, having successfully utilized it in the majority of my professional projects, 
+      ensuring robust, scalable, and secure solutions.
+      I possess a comprehensive knowledge of databases, spanning SQL, NoSQL, and GraphQL technologies. 
+      I have hands-on experience with database design, optimization, and management, ensuring efficient and scalable data solutions.
 
   social:
     ## IF you want to keep them aligned just add spaces
     - name: "github"
-      url: "          https://github.com"
+      url: "  https://github.com/mattjh1"
     - name: "linkedIn"
-      url: "         https://www.linkedin.com/in/mattias-holmgren-b2407714a/"
+      url: "  https://www.linkedin.com/in/mattias-holmgren-b2407714a/"
 
-  workexp:
-    - jobTitle: Junior software developer
+  work:
+    - jobTitle: Software developer
       color: red
       company: "tietoevry"
       location: Kalmar
@@ -47,90 +56,161 @@ params:
       color: purple
       company: "Botkyrka Kommun"
       location: Stockholm
-      date: July 2016  - July 2018
-      description: For awhile before i found my passion in software development, i worked as a CMS admin for a SiteVision site.
+      date: July 2016  - July 2019
+      description: |
+        i worked as a CMS admin for a SiteVision site, it was
+        at this job i learned about agile methodologies and working closely
+        with external consulting partners.
 
   education:
     - courseName: BSc Computer Science, Software Engineering
       color: red
       date: June 2018 - July 2021
-      description: Descrption about red color trianing
+      description: |
+        Completed a rigorous BSc program in Computer Science with a focus on Software Engineering. 
+        Demonstrated a commitment to excellence, receiving a prestigious scholarship for outstanding performance on my thesis.
 
   skills:
-    - name: Skill 1
+    - name: Python
+      color: green
       percentage: 90
-      description: you can add a description
+      description: |
+        Adept in Python programming, I've applied the language to develop a variety of utility scripts and demonstrate its versatility in various projects. 
+        Experienced in training AI models and working with notebooks, my Python proficiency extends across diverse applications, 
+        showcasing its adaptability and power.
 
-    - name: Skill 2
-      percentage: 30
-      #description: or you can leave it comented
+    - name: Java
+      color: green
+      percentage: 90
+      description: |
+        Proficient in Java, with a solid foundation in the core language and extensive experience 
+        with popular frameworks including Quarkus and Spring Boot. 
+        Well-versed in leveraging Java to develop robust and scalable backend solutions.
 
-    - name: Skill 3
-      color: blue
-      percentage: 50
-      description: Skill names can have colors too
+    - name: Bash
+      color: green
+      percentage: 85
+      description: |
+        Proficient in Bash scripting, I leverage this skill extensively in my day-to-day work to enhance productivity.
+        From automating repetitive tasks to crafting efficient and effective solutions, my expertise in Bash scripting contributes
+        to streamlined workflows and optimized processes.
+
+    - name: AWS Services
+      color: green
+      percentage: 80
+      description: |
+        Proficient in AWS Services, I've demonstrated expertise in a wide range of cloud technologies. 
+        From managing data with S3 to serverless architecture using Lambda, and extending to CI/CD pipelines, 
+        container orchestration with ECR/ECS, IoT solutions with IoT Core, and leveraging SageMaker for machine learning projects. 
+        My hands-on experience across these services reflects a robust understanding of cloud infrastructure and a proven ability to design 
+        and implement scalable solutions on the AWS platform.
+
+    - name: Node.js
+      color: orange
+      percentage: 70
+      description: |
+        Proficient in Node.js with hands-on experience in NestJS, Angular, React (Next.js), and utilizing the Prisma ORM. 
+        My expertise in Node.js extends to building scalable and efficient server-side applications and leveraging modern frameworks 
+        for dynamic and responsive web development.
+
+    - name: Prompt Engineering
+      color: orange
+      percentage: 70
+      description: |
+        Experienced in Prompt Engineering, I've conducted experiments with various Language Model (LLMs) implementations. 
+        Utilizing the LangChain framework, I crafted a Proof of Concept (POC) integrating RAG (Retrieval-Augmented Generation) and generalized AI. 
+        Navigating the dynamic landscape of vector databases, I've gained valuable insights into the evolving field, 
+        contributing to my adaptability and innovation in this fast-paced domain.
+
+    - name: Go lang
+      color: orange
+      percentage: 65
+      description: |
+        Possessing a growing proficiency in Go lang, I've utilized the language to create command-line interfaces (CLI) and AWS Lambdas. 
+        I am drawn to the language for its simplicity, efficiency, and concurrency model. 
+        Eager to further enhance my Go expertise and actively seeking opportunities to contribute my skills in professional projects.
+
+    - name: Neo4j
+      color: orange
+      percentage: 70
 
   softskills:
-    - name: SoftSkill 1
-      color: red
+    - name: Effective Communication
       percentage: 80
-      #description:
+      color: green
+      description: |
+        Known for clear and concise communication, I excel in conveying complex ideas with simplicity. 
+        A soft-spoken and gentle communicator, I foster collaboration and ensure that ideas are understood by diverse audiences.
 
-    - name: SoftSkill 2
-      #color:
+    - name: Active Listening
       percentage: 90
-      description: Description
+      color: green
+      description: |
+        Adept at active listening, I prioritize understanding others' perspectives and needs.
+        While not the most talkative, my attentive and thoughtful communication style contributes to effective teamwork and problem-solving.
 
   languages:
     - name: Swedish
+      color: green
       percentage: 100
       description: Mother's tongue
 
     - name: English
-      percentage: 95
-      description: Second language
+      color: green
+      percentage: 100
+      description: Professional level
 
   projects:
-    - title: Project Red
+    - title: IoT sensor application
       color: red
-      date: since 2019
-      link: https://example.com
-      description: Describing red stuff
+      date: since 2022
+      link: https://app.beelab.se
+      description: |
+        Worked in a team of dedicated developers to create a fullstack application hosted on AWS
+        for beekeepers to monitor connected beehives with advanced IoT features.
 
-    - title: Project Blue
-      color: blue
-      date: since 2016
-      link: https://example.com/blue
-      #description: nothing to describe
+    - title: Resource supply system
+      color: red
+      date: since 2022
+      #link: -
+      description: |
+        The goal of this project was to create a system for a electrical components reseller that
+        create value for the client by streamlining the workflow of buyers and sellers internally.
+        The project is a big success, and ongoing. Technologies include AngularJS, Neo4j, AWS stack
+        with CI/CD, Lambda functions, IoT Core and sagemaker.
 
-    - title: Project Default
-      date: Since 2017
-      link: https://example.com/default
-      #description: not there either
+    - title: RAG + gen AI
+      color: red
+      date: Since 2022
+      description: |
+        Spearheaded the development of a comprehensive Proof of Concept (POC) to establish an effective QA solution. 
+        The project involved the integration of a large dataset of documentation,
+        leveraging cutting-edge technologies such as LangChain for prompt engineering, FAISS for efficient similarity search, 
+        and chainlit for clean and effortless frontend application.
 
-  certifications:
-    - certName: Example Cert
-      company: Example Certifying Company
-      date: Date of Completion
-      #description: Lorem Ipsum
+  # certifications:
+  #   - certName: Example Cert
+  #     company: Example Certifying Company
+  #     date: Date of Completion
+  #     #description: Lorem Ipsum
 
-  misc:
-    #commandName: newcommand
-    title: "This Section can have a different command name"
-    titleColor: teal
-    content: |
-      Here the title and the content can have different colors
-      The content can be multi
+  # misc:
+  #   #commandName: newcommand
+  #   title: "This Section can have a different command name"
+  #   titleColor: teal
+  #   content: |
+  #     Here the title and the content can have different colors
+  #     The content can be multi
 
-      line
+  #     line
 
-      And spaces       will be respected as well
-      This section will have the default command: misc
-      but you can name it something else with the property
-      commandName: <String>
-      Give it a shot and try and uncomment the line 
-      commandName: newcommand
-      now instead of misc you can execute the newcommand for this section
-      Auto completion will know it too! :D
+  #     And spaces       will be respected as well
+  #     This section will have the default command: misc
+  #     but you can name it something else with the property
+  #     commandName: <String>
+  #     Give it a shot and try and uncomment the line
+  #     commandName: newcommand
+  #     now instead of misc you can execute the newcommand for this section
+  #     Auto completion will know it too! :D
 
-    contentColor: orange
+  #   contentColor: orange
