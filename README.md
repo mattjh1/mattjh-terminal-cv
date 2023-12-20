@@ -1,6 +1,8 @@
 # CV
 
-My cv built on Hugo using terminalcv template
+My not so serious command-line CV built on Hugo using terminalcv template
+
+Contact me on mattias.holmgren46@gmail.com for CV in PDF format.
 
 ## Reference
 
