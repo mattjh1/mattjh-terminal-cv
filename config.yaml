@@ -197,6 +197,16 @@ params:
         The solution is highly flexible, designed to seamlessly integrate into any codebase. 
         Additionally, we fine-tuned smaller models to handle complex, multi-part RAG queries, ensuring the system could adapt to intricate user needs.
 
+    - title: goetl pipeline
+      color: red
+      date: 2024
+      link: https://github.com/mattjh1/goetl
+      description: |
+        as a personal project, i developed goetl, a highly performant etl pipeline written in go, designed to extract, transform, and load data for rag (retrieval-augmented generation) solutions.
+        the tool specializes in processing data from arbitrary file types using flexible configuration options, and leverages go's goroutines to ensure efficient, concurrent data handling.
+        goetl provides core functionality such as chunked text splitting, seamless integration with embedding models, and support for multiple database types including redis and postgresql.
+        its configurable and scalable nature makes it adaptable to a wide range of file sources and enables hybrid search capabilities in rag systems.
+
   # certifications:
   #   - certName: Example Cert
   #     company: Example Certifying Company
