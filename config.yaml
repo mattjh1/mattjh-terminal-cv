@@ -188,6 +188,15 @@ params:
         leveraging cutting-edge technologies such as LangChain for prompt engineering, FAISS for efficient similarity search, 
         and chainlit for clean and effortless frontend application.
 
+    - title: AI Developer tool
+      color: red
+      date: 2024
+      description: |
+        I collaborated with a diverse team of experts to develop cutting-edge developer tools powered by generative AI. 
+        Our primary achievement was building a robust RAG (Retrieval-Augmented Generation) application, integrating ETL processes, multiple data sources, code repositories, documentation, and general files, with a hybrid search capability. 
+        The solution is highly flexible, designed to seamlessly integrate into any codebase. 
+        Additionally, we fine-tuned smaller models to handle complex, multi-part RAG queries, ensuring the system could adapt to intricate user needs.
+
   # certifications:
   #   - certName: Example Cert
   #     company: Example Certifying Company
