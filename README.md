@@ -1,6 +1,6 @@
 # CV
 
-(my terminal cv)[https://mattjh1.github.io/mattjh-terminal-cv/]
+[my terminal cv](https://mattjh1.github.io/mattjh-terminal-cv/)
 
 My not so serious, just for fun, command-line CV built on Hugo using terminalcv template
 
