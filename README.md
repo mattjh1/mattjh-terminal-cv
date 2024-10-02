@@ -2,9 +2,9 @@
 
 [my terminal cv](https://mattjh1.github.io/mattjh-terminal-cv/)
 
-My not so serious, just for fun, command-line CV built on Hugo using terminalcv template
+My not so serious, just for fun, command-line CV.
 
-Contact me on mattias.holmgren46@gmail.com for CV in PDF format.
+Contact [me@mattjh.sh](mailto:me@mattjh.sh)
 
 ## Reference
 
