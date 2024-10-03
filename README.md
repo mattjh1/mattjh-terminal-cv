@@ -1,6 +1,6 @@
 # CV
 
-[my terminal cv](https://mattjh1.github.io/mattjh-terminal-cv/)
+[https://cv.mattjh.sh](https://cv.mattjh.sh)
 
 My not so serious, just for fun, command-line CV.
 
