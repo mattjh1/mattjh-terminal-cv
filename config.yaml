@@ -4,7 +4,7 @@ title: "Mattjh CV"
 
 params:
   description: "mattjh cv - terminal format"
-  prompt: "recruiter@cv"
+  prompt: "you@cv"
   promptColor: green
   promptSimbols: ":~"
   # promptSimbolsColor: grey
