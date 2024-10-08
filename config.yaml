@@ -40,10 +40,10 @@ params:
     #                                                                                 #
     ###################################################################################
 
-     Welcome to my online resume
+    Welcome to my online resume
 
 
-     Type 'help' for a list of available commands
+    Type 'help' for a list of available commands
 
   whois:
     name: "Mattias Holmgren"
