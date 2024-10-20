@@ -8,9 +8,9 @@ params:
   promptColor: green
   promptSimbols: ":~"
   # promptSimbolsColor: grey
-  # startxLocation: https://example.com
+  # startxLocation: https://www.mattjh.sh
   # hideSocialName: true
-  exitLocation: "about:blank"
+  exitLocation: https://www.mattjh.sh
   hidesource: true
   greeting: |
 
@@ -50,7 +50,7 @@ params:
     profession: "Software Engineer"
     location: "Kalmar, Sweden"
     email: "me@mattjh.sh"
-    # homelink: "https://myHomePage.com"
+    homelink: "https://mattjh.sh"
     description: |
       Passionate, driven, and curious software engineer with a love for linux, backend development,
       AI, and a recent deep dive into prompt engineering. I thrive on learning new technologies
