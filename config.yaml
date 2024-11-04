@@ -53,15 +53,13 @@ params:
     homelink: "https://mattjh.sh"
     description: |
       Passionate, driven, and curious software engineer with a love for linux, backend development,
-      AI, and a recent deep dive into prompt engineering. I thrive on learning new technologies
-      and methodologies to stay at the forefront of the ever-evolving tech landscape. 
+      AI, with a recent deep dive into GenAI and prompt engineering. I thrive on learning new technologies and methodologies. 
       Proficient in Python, Java, Node.js, and experienced with common frontend frameworks. 
       Additionally, I have a solid understanding of Go and am well-versed in Git for effective source control. 
       My commitment to continuous learning fuels my enthusiasm for tackling complex challenges and delivering innovative solutions.
       I bring a well-rounded AWS knowledge, having successfully utilized it in the majority of my professional projects, 
       ensuring robust, scalable, and secure solutions.
-      I possess a comprehensive knowledge of databases, spanning SQL, NoSQL, and GraphQL technologies. 
-      I have hands-on experience with database design, optimization, and management, ensuring efficient and scalable data solutions.
+      I possess a comprehensive knowledge of databases, spanning SQL, NoSQL, and GraphQL technologies.
 
   social:
     ## IF you want to keep them aligned just add spaces
