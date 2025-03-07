@@ -44,7 +44,6 @@ params:
 
 
     Type 'help' for a list of available commands
-
   whois:
     name: "Mattias Holmgren"
     profession: "Software Engineer"
@@ -248,14 +247,15 @@ params:
         With templates to handle host-specific differences, the environment is highly flexible and supports both macOS and Linux configurations.
         A single command can recreate my full development environment, ensuring that I can quickly adapt to any system with minimal manual setup.
 
-    - title: AI Developer tool
+    - title: AI Developer Tool
       color: red
       date: Since 2024
       description: |
         I collaborated with a diverse team of experts to develop cutting-edge developer tools powered by generative AI. 
         Our primary achievement was building a robust RAG (Retrieval-Augmented Generation) application, integrating ETL processes, multiple data sources, code repositories, documentation, and general files, with a hybrid search capability. 
-        The solution is highly flexible, designed to seamlessly integrate into any codebase. 
-        Additionally, we fine-tuned smaller models to handle complex, multi-part RAG queries, ensuring the system could adapt to intricate user needs.
+        The solution leveraged the Elasticsearch stack for efficient indexing, retrieval, and ranking, optimizing search performance across structured and unstructured data.  
+        Additionally, we fine-tuned smaller models to handle complex, multi-part RAG queries, ensuring the system could adapt to intricate user needs.  
+        The project emphasized scalability, enabling seamless integration into any codebase while maintaining low-latency query execution.
 
     - title: gRAG pipeline and RAG application
       color: red
@@ -282,29 +282,43 @@ params:
         goetl provides core functionality such as chunked text splitting, seamless integration with embedding models, and support for multiple database types including redis and postgresql.
         its configurable and scalable nature makes it adaptable to a wide range of file sources and enables hybrid search capabilities in rag systems.
 
-  # certifications:
-  #   - certName: Example Cert
-  #     company: Example Certifying Company
-  #     date: Date of Completion
-  #     #description: Lorem Ipsum
+    - title: Developer Platform for Global Telecom Leader
+      color: red
+      date: Since 2024
+      description: |
+        Contributed to the development of an internal developer platform for a leading telecom company, built on Backstage.io. 
+        The platform streamlined developer workflows, enhancing service discoverability, documentation, and internal tooling. 
+        Focus areas included backend development, API integrations, authentication, and CI/CD automation. 
+        Ensured scalability and maintainability by leveraging Kubernetes, AWS, and microservices architecture.
 
-  # misc:
-  #   #commandName: newcommand
-  #   title: "This Section can have a different command name"
-  #   titleColor: teal
-  #   content: |
-  #     Here the title and the content can have different colors
-  #     The content can be multi
+      certifications:
+        - certName: KCNA Kubernetes and Cloud Native Associate
+          company: The Linux Foundation
+          date: January 31, 2025
+          badge: https://www.credly.com/badges/5e030c4c-4f9f-432f-9754-b92b842eda0c
+          description: |
+            Earners of this designation demonstrated a basic knowledge of Kubernetes and cloud-native technologies,
+            including how to deploy an application using basic kubectl commands, the architecture of Kubernetes (containers, pods, nodes, clusters),
+            understanding the cloud-native landscape and projects (storage, networking, GitOps, service mesh),
+            and understanding the principles of cloud-native security.
 
-  #     line
+      # misc:
+      #   #commandName: newcommand
+      #   title: "This Section can have a different command name"
+      #   titleColor: teal
+      #   content: |
+      #     Here the title and the content can have different colors
+      #     The content can be multi
 
-  #     And spaces       will be respected as well
-  #     This section will have the default command: misc
-  #     but you can name it something else with the property
-  #     commandName: <String>
-  #     Give it a shot and try and uncomment the line
-  #     commandName: newcommand
-  #     now instead of misc you can execute the newcommand for this section
-  #     Auto completion will know it too! :D
+      #     line
 
-  #   contentColor: orange
+      #     And spaces       will be respected as well
+      #     This section will have the default command: misc
+      #     but you can name it something else with the property
+      #     commandName: <String>
+      #     Give it a shot and try and uncomment the line
+      #     commandName: newcommand
+      #     now instead of misc you can execute the newcommand for this section
+      #     Auto completion will know it too! :D
+
+      #   contentColor: orange
