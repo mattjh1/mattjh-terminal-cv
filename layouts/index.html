@@ -235,7 +235,7 @@
 
       function viewPdf() {
           term.echo("Opening PDF...");
-          window.open("{{ .Site.BaseURL }}/cv.pdf", "_blank");
+          window.open("{{ "cv.pdf" | absURL }}", "_blank");
       }
 
 
