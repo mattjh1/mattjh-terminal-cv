@@ -17,7 +17,7 @@ params:
     Welcome to my interactive CLI resume
 
     Type `help` for a list of available commands
-    Hint: Does the terminal scare you? Type `view-pdf` and pretend this never happend.
+    Hint: Does the terminal scare you? Type `view-pdf` and pretend this never happened.
   whois:
     name: "Mattias Holmgren"
     profession: "Software Engineer"
