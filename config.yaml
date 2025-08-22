@@ -25,31 +25,29 @@ params:
     email: "me@mattjh.sh"
     homelink: "https://mattjh.sh"
     description: |
-      Passionate, driven, and curious software engineer with a love for linux, backend development,
-      AI, with a recent deep dive into GenAI and prompt engineering. I thrive on learning new technologies and methodologies. 
-      Proficient in Python, Java, Node.js, and experienced with common frontend frameworks. 
-      Additionally, I have a solid understanding of Go and am well-versed in Git for effective source control. 
-      My commitment to continuous learning fuels my enthusiasm for tackling complex challenges and delivering innovative solutions.
-      I bring a well-rounded AWS knowledge, having successfully utilized it in the majority of my professional projects, 
-      ensuring robust, scalable, and secure solutions.
-      I possess a comprehensive knowledge of databases, spanning SQL, NoSQL, and GraphQL technologies.
+      Passionate software engineer with a focus on backend development, AI/GenAI applications, and developer tooling. 
+      Experienced in Python, Java, Node.js, and TypeScript, with practical knowledge of modern frontend frameworks. 
+      Proven track record delivering scalable solutions using cloud infrastructure (AWS), Kubernetes, and CI/CD pipelines.
+      Recent focus on Backstage.io plugin development, GenAI integrations, and building developer experience tools at enterprise scale.
+      Comfortable working across the full stack and tackling complex problems with pragmatic, well-tested solutions.
 
   social:
-    ## IF you want to keep them aligned just add spaces
     - name: "github"
       url: "https://github.com/mattjh1"
     - name: "linkedIn"
       url: "https://www.linkedin.com/in/mattias-holmgren-b2407714a/"
 
   work:
-    - jobTitle: Software developer
+    - jobTitle: Solution Consultant
       color: red
       company: "tietoevry"
       location: Kalmar
       date: August 2022 - Present
       description: |
-        Working in a diverse set of projects, ranging from full-stack application, developing AI applications, managing, and deploying 
-        cloud infrastructure on AWS and kubernetes.
+        Developed AI-driven and cloud-native solutions, working directly with clients to deliver 
+        tailored applications. Recent focus includes building developer platforms on Backstage.io with AI marketplace 
+        integrations, custom plugin development, and GenAI workflow enhancements. Managing full-stack development, 
+        AWS infrastructure, and Kubernetes deployments across diverse project portfolios.
 
     - jobTitle: Web administrator
       color: purple
@@ -57,223 +55,199 @@ params:
       location: Stockholm
       date: August 2018  - October 2019
       description: |
-        I worked as a CMS admin for a SiteVision site at the municipality of Botkyrka, it was
-        at this job i learned about agile methodologies and working closely
-        with external consulting partners.
+        Managed CMS for SiteVision platform while collaborating with external consulting partners 
+        to implement agile methodologies. Gained foundational experience in stakeholder management 
+        and iterative development processes.
 
   education:
     - courseName: BSc Computer Science, Software Engineering
       color: red
       date: June 2018 - July 2021
       description: |
-        Completed a rigorous BSc program in Computer Science with a focus on Software Engineering. 
-        Demonstrated a commitment to excellence, receiving a prestigious scholarship for outstanding performance on my thesis.
+        Completed BSc program in Computer Science with Software Engineering focus. 
+        Received scholarship for outstanding thesis performance, demonstrating strong 
+        academic foundation in software development principles and practices.
 
   skills:
     - name: Python
       color: green
       percentage: 90
       description: |
-        Adept in Python programming, I've applied the language to develop a variety of utility scripts and demonstrate its versatility in various projects. 
-        Experienced in training AI models and working with notebooks, my Python proficiency extends across diverse applications, 
-        showcasing its adaptability and power.
+        Strong Python development skills across web applications, AI/ML integrations, and automation tools. 
+        Experience with FastAPI, data processing, and AI model training. Applied in RAG systems, 
+        ETL pipelines, and various utility applications.
 
-    - name: Bash
+    - name: TypeScript/Node.js
       color: green
       percentage: 85
       description: |
-        Proficient in Bash scripting, I leverage this skill extensively in my day-to-day work to enhance productivity.
-        From automating repetitive tasks to crafting efficient and effective solutions, my expertise in Bash scripting contributes
-        to streamlined workflows and optimized processes.
+        Proficient in Node.js and TypeScript for backend and frontend development. 
+        Hands-on experience with NestJS, React (Next.js), and Backstage.io plugin development. 
+        Built scalable applications using modern JavaScript frameworks and tools.
 
-    - name: Node.js
+    - name: Backstage.io
       color: green
       percentage: 85
       description: |
-        Proficient in Node.js with hands-on experience in NestJS, Angular, React (Next.js), and utilizing the Prisma ORM. 
-        My expertise in Node.js extends to building scalable and efficient server-side applications and leveraging modern frameworks 
-        for dynamic and responsive web development.
+        Extensive experience developing custom Backstage plugins including AI marketplace integration, 
+        subscription management, and developer feedback systems. Built plugin templates for workflow 
+        standardization and contributed to enterprise-scale developer platform implementations.
 
-    - name: Prompt Engineering
+    - name: AI/GenAI Integration
       color: green
-      percentage: 85
+      percentage: 80
       description: |
-        Experienced in Prompt Engineering, I've conducted experiments with various Language Model (LLMs) implementations. 
-        Utilizing the LangChain framework, I crafted a Proof of Concept (POC) integrating RAG (Retrieval-Augmented Generation) and generalized AI. 
-        Navigating the dynamic landscape of vector databases, I've gained valuable insights into the evolving field, 
-        contributing to my adaptability and innovation in this fast-paced domain.
+        Practical experience integrating GenAI capabilities into developer workflows and business applications. 
+        Built RAG systems using LangChain, implemented hybrid search solutions, and developed AI-powered 
+        developer tools. Experience with various LLM implementations and prompt engineering techniques.
 
     - name: AWS Services
       color: green
       percentage: 80
       description: |
-        Proficient in AWS Services, I've demonstrated expertise in a wide range of cloud technologies. 
-        From managing data with S3 to serverless architecture using Lambda, and extending to CI/CD pipelines, 
-        container orchestration with ECR/ECS, IoT solutions with IoT Core, and leveraging SageMaker for machine learning projects. 
-        My hands-on experience across these services reflects a robust understanding of cloud infrastructure and a proven ability to design 
-        and implement scalable solutions on the AWS platform.
+        Solid AWS experience across core services including S3, Lambda, ECS/ECR, IoT Core, and SageMaker. 
+        Implemented CI/CD pipelines, managed container orchestration, and deployed scalable cloud solutions 
+        for production environments.
+
+    - name: Bash
+      color: green
+      percentage: 85
+      description: |
+        Strong scripting abilities for automation, deployment, and system administration tasks. 
+        Daily use for productivity enhancement and process optimization in development workflows.
 
     - name: Go
       color: orange
       percentage: 75
       description: |
-        Possessing a growing proficiency in Go, I've utilized the language to create command-line interfaces (CLI) and AWS Lambdas and lately more advanced full fledged systems. 
-        I am drawn to the language for its simplicity, efficiency, and concurrency model. 
-        Eager to further enhance my Go expertise and actively seeking opportunities to contribute my skills in professional projects.
+        Growing proficiency in Go for CLI tools, AWS Lambdas, and system-level applications. 
+        Appreciate the language's simplicity and performance characteristics. 
+        Recent projects include ETL pipelines and performance monitoring tools.
 
     - name: Neo4j
       color: orange
       percentage: 70
       description: |
-        I have utilized Neo4j in several projects, leveraging its graph database capabilities for complex data modeling and querying.
-        My experience includes designing and managing knowledge graphs, optimizing queries, and integrating Neo4j with other tools like Langchain and FastAPI.
-        One key project is gRAG, which integrates Neo4j into a sophisticated ETL pipeline and RAG application.
-        The pipeline processes and stores data in Neo4j for hybrid search, combining vector embeddings with Cypher queries for enhanced information retrieval. 
-        Additionally, I implemented database backup, restore features, and interactive querying through a Chainlit chat interface.
+        Experience with graph database modeling and complex query optimization. 
+        Integrated Neo4j into RAG systems and knowledge graph applications, 
+        including backup/restore implementations and hybrid search capabilities.
 
     - name: Java
       color: orange
       percentage: 70
       description: |
-        Proficient in Java, with a solid foundation in the core language and experience 
-        with popular frameworks including Quarkus and Spring Boot. 
-        Well-versed in leveraging Java to develop robust and scalable backend solutions.
-
-    - name: Ansible
-      color: orange
-      percentage: 60
-      description: |
-        My interest in automation led me to Ansible, where I've started using it to streamline setups and configurations.
-        Though my experience is mainly with personal projects, I’m learning quickly and appreciate its agentless, idempotent design for efficient, repeatable tasks.
-        I plan to expand my Ansible use into larger, more complex environments.
+        Solid foundation in Java with experience in Spring Boot and Quarkus frameworks. 
+        Applied in enterprise backend development and microservices architectures.
 
   softskills:
-    - name: Effective Communication
-      percentage: 75
+    - name: Problem Solving
+      percentage: 85
       color: green
       description: |
-        Continuously developing my communication skills to better articulate ideas and contribute effectively in team settings.
-        I value clarity and aim to present information in a straightforward manner while ensuring that all stakeholders stay informed.
+        Enjoy tackling complex technical challenges and finding pragmatic solutions. 
+        Focus on understanding root causes and implementing maintainable fixes that scale.
 
-    - name: Active Listening
-      percentage: 75
+    - name: Team Collaboration
+      percentage: 80
       color: green
       description: |
-        Dedicated to honing my active listening skills to understand others' viewpoints and foster collaborative discussions.
-        I am committed to becoming more attentive and responsive to input, ensuring productive interactions within the team.
+        Work effectively with cross-functional teams, from engineers to product managers. 
+        Value clear communication and alignment while contributing to shared technical decisions.
+
+    - name: Continuous Learning
+      percentage: 90
+      color: green
+      description: |
+        Actively explore new technologies and methodologies. Stay current with industry trends, 
+        particularly in AI/ML space and developer tooling ecosystem.
 
   languages:
     - name: Swedish
       color: green
       percentage: 100
-      description: Mother's tongue
+      description: Native speaker
 
     - name: English
       color: green
       percentage: 100
-      description: Professional level
+      description: Professional proficiency
 
   projects:
-    - title: IoT sensor application
-      color: red
-      date: since 2022
-      link: https://app.beelab.se
-      description: |
-        Worked in a team of dedicated developers to create a fullstack application hosted on AWS
-        for beekeepers to monitor connected beehives with advanced IoT features.
-
-    - title: Resource supply system
-      color: red
-      date: since 2022
-      #link: -
-      description: |
-        The goal of this project was to create a system for a electrical components reseller that
-        create value for the client by streamlining the workflow of buyers and sellers internally.
-        The project is a big success, and ongoing. Technologies include AngularJS, Neo4j, AWS stack
-        with CI/CD, Lambda functions, IoT Core and sagemaker.
-
-    - title: RAG + gen AI
-      color: red
-      date: Since 2022
-      description: |
-        Spearheaded the development of a Proof of Concept (POC) to establish an effective Q/A solution. 
-        The project involved the integration of a large dataset of documentation,
-        leveraging cutting-edge technologies such as LangChain for prompt engineering, FAISS for efficient similarity search, 
-        and chainlit for clean and effortless frontend application.
-
-    - title: Trello Board CSV Exporter
-      color: red
-      date: Since 2023
-      link: https://github.com/mattjh1/trello-csv-exporter
-      description: |
-        I developed a Python-based tool to export Trello board data into CSV format, allowing users to manage and analyze their Trello data efficiently.
-        The script interacts with the Trello API, and provides flexible configuration options, including output to local directories or S3, with optional AWS profile integration.
-        The project is designed for ease of use with `.env`-based API key management and supports environment isolation through virtual environments.
-        It features customizable command-line arguments and streamlines the process of exporting Trello data into an organized format for further analysis.
-
-    - title: dotfiles setup
-      color: red
-      date: Since 2023
-      link: https://github.com/mattjh1/dotfiles
-      description: |
-        I created a robust and portable dotfiles setup, using a combination of `ansible`, `chezmoi`, and `Go templates` to manage and deploy development environments across multiple machines seamlessly.
-        This setup automates the installation of essential tools like `zsh`, `nvim`, `tmux`, `git`, and others, while leveraging `1password` integration for secure credential management.
-        With templates to handle host-specific differences, the environment is highly flexible and supports both macOS and Linux configurations.
-        A single command can recreate my full development environment, ensuring that I can quickly adapt to any system with minimal manual setup.
-
-    - title: AI Developer Tool
+    - title: AI-Powered Developer Platform for Global Telecom
       color: red
       date: Since 2024
       description: |
-        I collaborated with a diverse team of experts to develop cutting-edge developer tools powered by generative AI. 
-        Our primary achievement was building a robust RAG (Retrieval-Augmented Generation) application, integrating ETL processes, multiple data sources, code repositories, documentation, and general files, with a hybrid search capability. 
-        The solution leveraged the Elasticsearch stack for efficient indexing, retrieval, and ranking, optimizing search performance across structured and unstructured data.  
-        Additionally, we fine-tuned smaller models to handle complex, multi-part RAG queries, ensuring the system could adapt to intricate user needs.  
-        The project emphasized scalability, enabling seamless integration into any codebase while maintaining low-latency query execution.
+        Built AI marketplace integration within Backstage.io platform serving thousands of developers. 
+        Developed custom plugins including subscription management, developer feedback collection, AI service discovery,
+        and AI governance/compliance systems. Implemented plugin templates for workflow standardization and integrated 
+        GenAI capabilities into developer workflows using TypeScript, Node.js, and modern web technologies.
 
-    - title: gRAG pipeline and RAG application
+    - title: gRAG Pipeline and RAG Application
       color: red
       date: Since 2024
       link: https://github.com/mattjh1/gRAG
       description: |
-        gRAG is a multi-faceted project that integrates an advanced ETL pipeline with a Retrieval-Augmented Generation (RAG) system. 
-        The ETL pipeline processes various text-based file formats, extracts and transforms data using semantic splitting and LLM-based document parsing, and stores it as a knowledge graph in Neo4j. 
-        This enables hybrid search capabilities that combine vector embeddings and structured queries for enhanced information retrieval.
+        Advanced ETL pipeline with RAG system integration. Processes text-based formats and stores 
+        data as knowledge graph in Neo4j. Features hybrid search combining vector embeddings with 
+        structured queries, FastAPI interface, and Chainlit chat application for interactive querying.
 
-        The RAG application utilizes both hybrid and structured retrievers. The hybrid retriever searches vector embeddings for cosine similarity, while the structured retriever extracts entities from queries and executes Neo4j Cypher queries for relevant nodes and relationships, enhancing results for complex RAG tasks.
-
-        Additionally, the project includes a backup and restore feature for Neo4j databases. For demonstration, a pre-built knowledge graph based on Bram Stoker's *Dracula* is included, which can be restored using an automated script or manual commands for quick setup. The database is powered by Langchain's experimental LLMGraphTransformer to generate graph structures from literature.
-
-        The project also features a FastAPI-based interface and integrates with a Chainlit chat application for interactive querying and testing.
-
-    - title: goetl pipeline
+    - title: goETL Pipeline
       color: red
       date: Since 2024
       link: https://github.com/mattjh1/goetl
       description: |
-        As a personal project, i developed goetl, a highly performant etl pipeline written in go, designed to extract, transform, and load data for rag (retrieval-augmented generation) solutions.
-        the tool specializes in processing data from arbitrary file types using flexible configuration options, and leverages go's goroutines to ensure efficient, concurrent data handling.
-        goetl provides core functionality such as chunked text splitting, seamless integration with embedding models, and support for multiple database types including redis and postgresql.
-        its configurable and scalable nature makes it adaptable to a wide range of file sources and enables hybrid search capabilities in rag systems.
-
-    - title: Developer Platform for Global Telecom Leader
-      color: red
-      date: Since 2024
-      description: |
-        Contributed to the development of an internal developer platform for a leading telecom company, built on Backstage.io. 
-        The platform streamlined developer workflows, enhancing service discoverability, documentation, and internal tooling. 
-        Focus areas included backend development, API integrations, authentication, and CI/CD automation. 
-        Ensured scalability and maintainability by leveraging Kubernetes, AWS, and microservices architecture.
+        High-performance ETL pipeline written in Go for RAG solutions. Supports chunked text processing, 
+        embedding model integration, and multiple database backends (Redis, PostgreSQL). 
+        Designed for concurrent data handling and scalable RAG system implementations.
 
     - title: PSI-Map - PageSpeed Insights Analyzer
       color: red
       date: Since 2025
       link: https://github.com/mattjh1/psi-map
       description: |
-        Personal project: Developed a command-line tool for batch PageSpeed Insights analysis using sitemap.xml files, built in Go with concurrent processing capabilities.
-        Features include intelligent caching system, multiple output formats (HTML, JSON), and an interactive web server for viewing results.
-        Implemented comprehensive CI/CD pipeline with automated builds, Docker containerization, testing, security scanning, and cross-platform releases.
-        The tool enables performance monitoring at scale and integrates seamlessly into CI/CD workflows with configurable performance gates.
+        Command-line tool for batch PageSpeed Insights analysis using sitemap.xml files. 
+        Built in Go with concurrent processing, intelligent caching, multiple output formats, 
+        and comprehensive CI/CD pipeline with automated builds and cross-platform releases.
+
+    - title: AI Developer Tool
+      color: red
+      date: Since 2024
+      description: |
+        Collaborated with a diverse team to develop AI-powered developer tools, 
+        focusing on a robust RAG (Retrieval-Augmented Generation) application. Integrated ETL processes, 
+        multiple data sources, and hybrid search using Elasticsearch for efficient retrieval. 
+        Fine-tuned models for complex queries, ensuring scalability and low-latency execution.
+
+    - title: Resource Supply System
+      color: red
+      date: Since 2022
+      description: |
+        Streamlined workflow system for electrical components reseller using AngularJS, Neo4j, 
+        and AWS stack. Includes CI/CD pipelines, Lambda functions, IoT Core, and SageMaker integrations.
+
+    - title: RAG + GenAI Proof of Concept
+      color: red
+      date: Since 2022
+      description: |
+        Q/A solution integrating large documentation datasets using LangChain for prompt engineering, 
+        FAISS for similarity search, and Chainlit for frontend interface. Demonstrated effective 
+        GenAI application in enterprise knowledge management.
+
+    - title: IoT Sensor Application
+      color: red
+      date: Since 2022
+      description: |
+        Team collaboration on fullstack IoT application for beekeepers to monitor connected beehives. 
+        AWS-hosted solution with advanced IoT features and real-time monitoring capabilities.
+
+    - title: Dotfiles Setup
+      color: red
+      date: Since 2023
+      link: https://github.com/mattjh1/dotfiles
+      description: |
+        Automated development environment setup using Ansible, chezmoi, and Go templates. 
+        Supports macOS and Linux with 1Password integration for secure credential management. 
+        Single-command environment recreation for rapid system adaptation.
 
   certifications:
     - certName: KCNA Kubernetes and Cloud Native Associate
@@ -282,28 +256,6 @@ params:
       date: January 31, 2025
       badge: https://www.credly.com/badges/5e030c4c-4f9f-432f-9754-b92b842eda0c
       description: |
-        Earners of this designation demonstrated a basic knowledge of Kubernetes and cloud-native technologies,
-        including how to deploy an application using basic kubectl commands, the architecture of Kubernetes (containers, pods, nodes, clusters),
-        understanding the cloud-native landscape and projects (storage, networking, GitOps, service mesh),
-        and understanding the principles of cloud-native security.
-
-      # misc:
-      #   #commandName: newcommand
-      #   title: "This Section can have a different command name"
-      #   titleColor: teal
-      #   content: |
-      #     Here the title and the content can have different colors
-      #     The content can be multi
-
-      #     line
-
-      #     And spaces       will be respected as well
-      #     This section will have the default command: misc
-      #     but you can name it something else with the property
-      #     commandName: <String>
-      #     Give it a shot and try and uncomment the line
-      #     commandName: newcommand
-      #     now instead of misc you can execute the newcommand for this section
-      #     Auto completion will know it too! :D
-
-      #   contentColor: orange
+        Foundational knowledge of Kubernetes and cloud-native technologies, including container orchestration, 
+        networking, security principles, and CNCF ecosystem understanding. Validates practical skills 
+        in application deployment and cluster architecture.
