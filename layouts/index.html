@@ -65,7 +65,7 @@
                   {{ if .description }}
                       term.echo("{{ .description }}");
                   {{ end }}
-                  term.echo("-------------------- ");
+                  term.echo("-------------------------------------------------------------------------- ");
                   term.echo("");
               {{ end }}
           {{ end }}
@@ -81,7 +81,7 @@
                   term.echo("{{ .date }}");
                   term.echo ("");
                   term.echo("{{ .description }}");
-                  term.echo("-------------------- ");
+                  term.echo("-------------------------------------------------------------------------- ");
                   term.echo("");
               {{ end }}
           {{ end }}
@@ -96,7 +96,7 @@
                   {{ if .description }}
                       term.echo("{{ .description }}");
                   {{ end }}
-                  term.echo("-------------------- ");
+                  term.echo("-------------------------------------------------------------------------- ");
                   term.echo("");
               {{ end }}
           {{ end }}
@@ -106,34 +106,46 @@
           term.echo(" ");
           {{ with .Site.Params.Skills }}
               {{ range . }}
-                  var bar_length = Math.round({{ .percentage }} / 10);
-                  var bar_filled = Array(bar_length + 1).join("&#9611;");
-                  var bar_blank= Array(11 - bar_length).join("&#9617;");
-                  term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]\n" +
-                          bar_filled + bar_blank +
-                          {{ .percentage }} +"%");
+                  {{ if .percentage }}
+                      var bar_length = Math.round({{ .percentage }} / 10);
+                      var bar_filled = Array(bar_length + 1).join("&#9611;");
+                      var bar_blank= Array(11 - bar_length).join("&#9617;");
+                      term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]\n" +
+                              bar_filled + bar_blank +
+                              {{ .percentage }} +"%");
+                  {{ else }}
+                      term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]");
+                  {{ end }}
                   {{ if .description }}
                       term.echo("{{ .description }}");
                   {{ end }}
                   term.echo ("")
               {{ end }}
+            term.echo("-------------------------------------------------------------------------- ");
+            term.echo("");
           {{ end }}
       }
       function softskills () {
           term.echo("");
           {{ with .Site.Params.softSkills }}
               {{ range . }}
-                  var bar_length = Math.round({{ .percentage }} / 10);
-                  var bar_filled = Array(bar_length + 1).join("&#9611;");
-                  var bar_blank= Array(11 - bar_length).join("&#9617;");
-                  term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]\n" +
-                         bar_filled + bar_blank +
-                         {{ .percentage }} +"%");
+                  {{ if .percentage }}
+                      var bar_length = Math.round({{ .percentage }} / 10);
+                      var bar_filled = Array(bar_length + 1).join("&#9611;");
+                      var bar_blank= Array(11 - bar_length).join("&#9617;");
+                      term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]\n" +
+                              bar_filled + bar_blank +
+                              {{ .percentage }} +"%");
+                  {{ else }}
+                      term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]");
+                  {{ end }}
                   {{ if .description }}
                       term.echo("{{ .description }}");
                   {{ end }}
                   term.echo ("")
               {{ end }}
+            term.echo("-------------------------------------------------------------------------- ");
+            term.echo("");
           {{ end }}
       }
 
@@ -141,17 +153,23 @@
           term.echo("");
           {{ with .Site.Params.languages }}
               {{ range . }}
-                  var bar_length = Math.round({{ .percentage }} / 10);
-                  var bar_filled = Array(bar_length + 1).join("&#9611;");
-                  var bar_blank= Array(11 - bar_length).join("&#9617;");
-                  term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]\n" +
-                          "" + bar_filled + bar_blank +
-                          " " + {{ .percentage }} +"%");
+                  {{ if .percentage }}
+                      var bar_length = Math.round({{ .percentage }} / 10);
+                      var bar_filled = Array(bar_length + 1).join("&#9611;");
+                      var bar_blank= Array(11 - bar_length).join("&#9617;");
+                      term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]\n" +
+                              bar_filled + bar_blank +
+                              {{ .percentage }} +"%");
+                  {{ else }}
+                      term.echo("[[b;{{ .color | default "grey" }};]{{ .name }}:]");
+                  {{ end }}
                   {{ if .description }}
                       term.echo("{{ .description }}");
                   {{ end }}
                   term.echo("")
               {{ end }}
+            term.echo("-------------------------------------------------------------------------- ");
+            term.echo("");
           {{ end }}
       }
 
@@ -166,7 +184,7 @@
                   {{ if .description }}
                       term.echo("{{ .description }}");
                   {{ end }}
-                  term.echo("-----------------------");
+                  term.echo("-------------------------------------------------------------------------- ");
                   term.echo("");
             {{ end }}
           {{ end }}
