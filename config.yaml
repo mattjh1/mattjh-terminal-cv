@@ -1,25 +1,21 @@
----
 BaseURL: "https://cv.mattjh.sh"
 theme: "terminalcv"
 title: "Mattjh CV"
 
 params:
-  description: "mattjh cv - terminal format"
+  description: "Mattias Holmgren - Software Engineer (AI, Cloud, Go, Dev Platforms)"
   prompt: "you@cv"
   promptColor: green
   promptSimbols: " $"
   promptSimbolsColor: grey
-  # startxLocation: https://www.mattjh.sh
-  # hideSocialName: true
   exitLocation: https://www.mattjh.sh
   hidesource: true
   greeting: |
+    Welcome to my interactive CLI resume.
 
-    Welcome to my interactive CLI resume
+    Type `help` for commands.
+    Hint: If you prefer traditional, type `view-pdf`.
 
-    Type `help` for a list of available commands
-    Hint: Does the terminal scare you? Type `view-pdf` and pretend this
-    never happened.
   whois:
     name: "Mattias Holmgren"
     profession: "Software Engineer"
@@ -27,17 +23,13 @@ params:
     email: "me@mattjh.sh"
     homelink: "https://mattjh.sh"
     description: |
-      Passionate software engineer with a focus on backend development,
-      full-stack development, AI/GenAI applications, and developer tooling.
-      Experienced in Python, Java, Node.js, and TypeScript, with practical
-      knowledge of modern frontend frameworks including React and Angular.
-      Proven track record delivering scalable solutions using cloud
-      infrastructure (AWS), microservices architecture, Kubernetes, Docker,
-      and CI/CD pipelines.
-      Recent focus on Backstage.io plugin development, GenAI integrations,
-      and building developer experience tools at enterprise scale.
-      Comfortable working across the full stack and tackling complex
-      problems with pragmatic, well-tested solutions.
+      Full-stack software engineer building cloud-native applications and
+      developer platforms with Python, TypeScript, React, and AWS/Kubernetes.
+      Recently delivered an enterprise Backstage.io platform with GenAI
+      integrations, adopted across engineering teams and streamlining
+      onboarding and workflow automation. Alongside professional work, I build
+      high-performance Go tools and AI/ETL pipelines, and I’m eager to bring
+      that expertise into larger-scale backend and developer tooling roles.
 
   social:
     - name: "github"
@@ -50,305 +42,132 @@ params:
       color: red
       company: "tietoevry"
       location: Kalmar
-      date: August 2022 - Present
+      date: Aug 2022 – Present
       description: |
-        Software engineer developing AI-driven and cloud-native solutions,
-        working directly with clients to deliver tailored applications using
-        Agile methodologies. Recent focus includes building developer
-        platforms on Backstage.io with AI integrations, custom plugin
-        development, RESTful APIs, and GenAI workflow enhancements. Managing
-        full-stack development, AWS infrastructure, Kubernetes deployments,
-        Docker containerization, and CI/CD pipelines across diverse project
-        portfolios. Built scalable microservices architecture serving
-        thousands of developers.
+        • Designed and deployed an AI-enabled developer platform on Backstage.io,
+          adopted by thousands of engineers, improving onboarding time from weeks
+          to days.
+        • Built custom plugins for AI service discovery, governance/compliance,
+          and feedback collection using Node.js/TypeScript; increased self-service
+          adoption across engineering teams.
+        • Integrated GenAI workflows into enterprise apps, reducing manual support
+          lookups and speeding up resolution times.
+        • Scaled AWS/Kubernetes microservices for high-volume workloads; also
+          implemented serverless automation in Go for specific tasks.
+        • Optimized CI/CD pipelines (GitHub Actions, GitLab CI), cutting build and
+          deployment times by more than half.
+        • Collaborated directly with enterprise clients to deliver tailored
+          cloud-native solutions using Agile practices.
 
-    - jobTitle: Web administrator
+    - jobTitle: Web Administrator
       color: purple
       company: "Botkyrka Kommun"
       location: Stockholm
-      date: August 2018  - October 2019
+      date: Aug 2018 – Oct 2019
       description: |
-        Managed CMS for SiteVision platform while collaborating with external
-        consulting partners to implement agile methodologies. Gained
-        foundational experience in stakeholder management and iterative
-        development processes.
+        • Managed CMS for SiteVision platform in collaboration with external
+          partners.
+        • Gained early experience in agile practices, stakeholder management,
+          and iterative delivery.
 
   education:
     - courseName: BSc Computer Science, Software Engineering
       color: red
-      date: June 2018 - July 2021
+      date: Jun 2018 – Jul 2021
       description: |
-        Completed BSc program in Computer Science with Software Engineering
-        focus. Received scholarship for outstanding thesis performance,
-        demonstrating strong academic foundation in software development
-        principles, algorithms, data structures and practices.
+        Scholarship-awarded thesis. Strong foundation in software engineering
+        principles, algorithms, and system design.
 
   skills:
-    - name: Python
+    - name: Core Backend
       color: green
-      percentage: 90
       description: |
-        Strong Python development skills across web applications, REST APIs,
-        AI/ML integrations, and automation tools. Experience with FastAPI,
-        Flask, data processing, unit testing, and AI model training. Applied
-        in RAG systems, ETL pipelines, microservices, and various utility
-        applications.
+        Python (FastAPI, Flask), Java (Spring Boot), TypeScript/Node.js
+        (NestJS, Express.js), Go (personal projects + serverless functions).
+        REST/GraphQL APIs, microservices, system design.
 
-    - name: TypeScript/Node.js
+    - name: AI & GenAI
       color: green
-      percentage: 85
       description: |
-        Proficient in Node.js and TypeScript for backend and frontend
-        development, REST API development. Hands-on experience with NestJS,
-        Express.js, React (Next.js), and Backstage.io plugin development.
-        Built scalable web applications using modern JavaScript frameworks,
-        microservices, and tools.
+        RAG systems, LangChain, LLM integration, prompt engineering, GenAI
+        workflow automation, hybrid search solutions.
 
-    - name: Go
+    - name: Cloud & DevOps
+      color: green
+      description: |
+        AWS (ECS, Lambda, IoT Core, SageMaker), Kubernetes, Docker, CI/CD
+        pipelines, GitHub Actions, GitLab CI, infrastructure as code.
+
+    - name: Developer Platforms
+      color: green
+      description: |
+        Backstage.io plugin development (AI integration, subscription mgmt,
+        governance/compliance), workflow standardization, developer experience.
+
+    - name: Databases
       color: orange
-      percentage: 75
       description: |
-        Growing proficiency in Go for CLI tools, AWS Lambdas, and
-        system-level applications. Appreciate the language's simplicity and
-        performance characteristics. Recent projects include ETL pipelines
-        and performance monitoring tools.
-
-    - name: Java
-      color: orange
-      percentage: 70
-      description: |
-        Solid foundation in Java with experience in Spring Boot and Quarkus
-        frameworks. Applied in enterprise backend development and
-        microservices architectures.
-
-    - name: Bash Scripting
-      color: green
-      percentage: 85
-      description: |
-        Strong Linux scripting abilities for automation, deployment, and
-        system administration tasks. Daily use for productivity enhancement
-        and process optimization in development workflows.
-
-    - name: AWS Cloud Services
-      color: green
-      percentage: 80
-      description: |
-        Solid AWS experience across core services including EC2, S3, Lambda,
-        ECS/ECR, IoT Core, CloudFormation, and SageMaker. Implemented CI/CD
-        pipelines, managed container orchestration with Docker and
-        Kubernetes, and deployed scalable cloud solutions for production
-        environments using DevOps practices.
-
-    - name: Kubernetes & Docker
-      color: green
-      percentage: 75
-      description: |
-        Container orchestration and deployment using Kubernetes and Docker.
-        Experience with cluster management, service deployment, scaling, and
-        monitoring. KCNA certified with practical knowledge of cloud-native
-        technologies and CNCF ecosystem.
-
-    - name: Backend Development
-      color: green
-      percentage: 85
-      description: |
-        Strong backend development skills with REST APIs, GraphQL APIs,
-        microservices architecture, database design, and system integration.
-        Experience with SQL and NoSQL databases including PostgreSQL,
-        MongoDB, Redis, and Neo4j.
-
-    - name: Frontend Development
-      color: orange
-      percentage: 70
-      description: |
-        Frontend development experience with React.js, Next.js, AngularJS,
-        HTML5, CSS3, and modern JavaScript. Built responsive web applications
-        and user interfaces with focus on user experience.
-
-    - name: AI/GenAI Integration
-      color: green
-      percentage: 80
-      description: |
-        Practical experience integrating GenAI capabilities, machine
-        learning, and LLMs into developer workflows and business
-        applications. Built RAG systems using LangChain, implemented hybrid
-        search solutions, and developed AI-powered developer tools.
-        Experience with various LLM implementations and prompt engineering
-        techniques.
-
-    - name: Backstage.io
-      color: green
-      percentage: 85
-      description: |
-        Extensive experience developing custom Backstage plugins including AI
-        integration, subscription management, and developer feedback systems.
-        Built plugin templates for workflow standardization and contributed
-        to enterprise-scale developer platform implementations.
-
-    - name: Testing & Quality Assurance
-      color: green
-      percentage: 80
-      description: |
-        Comprehensive testing experience including unit testing (pytest,
-        Jest, JUnit), integration testing, API testing, and end-to-end
-        testing. Implemented automated test suites in CI/CD pipelines,
-        test-driven development practices, and quality gates for production
-        deployments. Experience with testing frameworks across Python,
-        TypeScript/JavaScript, Java, and Go ecosystems.
-
-    - name: DevOps & CI/CD
-      color: green
-      percentage: 80
-      description: |
-        DevOps practices including CI/CD pipeline development, GitHub
-        Actions, GitLab CI, automated testing, deployment automation,
-        infrastructure as code, and monitoring. Experience with Agile and
-        SCRUM methodologies.
-
-    - name: Database Technologies
-      color: orange
-      percentage: 75
-      description: |
-        Experience with SQL databases (PostgreSQL), NoSQL databases
-        (MongoDB, Redis), and graph databases (Neo4j). Database design,
-        query optimization, and integration with web applications and
-        microservices.
+        PostgreSQL, MongoDB, Redis, Neo4j. Schema design, query optimization,
+        integration with microservices.
 
   softskills:
-    - name: Problem Solving & Analytical Thinking
-      percentage: 85
+    - name: Problem Solving
       color: green
-      description: |
-        Enjoy tackling complex technical challenges and finding pragmatic
-        solutions. Focus on understanding root causes and implementing
-        maintainable fixes that scale.
-
-    - name: Team Collaboration & Communication
-      percentage: 80
+      description: Pragmatic solutions to complex challenges with focus on scalability.
+    - name: Collaboration
       color: green
-      description: |
-        Work effectively with cross-functional teams, from engineers to
-        product managers. Value clear communication and alignment while
-        contributing to shared technical decisions. Experience with Agile and
-        SCRUM methodologies.
-
-    - name: Continuous Learning & Adaptability
-      percentage: 90
+      description: Effective in cross-functional teams, Agile/SCRUM experience.
+    - name: Adaptability
       color: green
-      description: |
-        Actively explore new technologies and methodologies. Stay current
-        with industry trends, particularly in AI/ML space and developer
-        tooling ecosystem.
+      description: Active learner, exploring AI/ML and emerging dev tools.
 
   languages:
     - name: Swedish
       color: green
-      percentage: 100
-      description: Native speaker
-
+      description: Native
     - name: English
       color: green
-      percentage: 100
-      description: Professional proficiency
+      description: Professional fluency
 
   projects:
-    - title: AI-Powered Developer Platform for Global Telecom
+    - title: AI-Powered Developer Platform
       color: red
-      date: Since 2024
+      date: 2024 –
       description: |
-        Built AI integrations within Backstage.io platform serving thousands
-        of developers. Developed custom plugins including subscription
-        management, developer feedback collection, AI service discovery, and
-        AI governance/compliance systems. Implemented plugin templates for
-        workflow standardization and integrated GenAI capabilities into
-        developer workflows using TypeScript, Node.js, and modern web
-        technologies.
+        Enterprise Backstage.io platform with AI integrations and custom plugins
+        (subscription mgmt, feedback collection, governance). Improved developer
+        workflows with GenAI-enhanced automation.
 
-    - title: gRAG Pipeline and RAG Application
+    - title: gRAG Pipeline
       color: red
-      date: Since 2024
+      date: 2024 –
       link: https://github.com/mattjh1/gRAG
       description: |
-        Advanced ETL pipeline with RAG system integration. Processes
-        text-based formats and stores data as knowledge graph in Neo4j.
-        Features hybrid search combining vector embeddings with structured
-        queries, FastAPI interface, and Chainlit chat application for
-        interactive querying.
+        ETL + RAG pipeline using FastAPI and Neo4j. Hybrid search (vector +
+        structured queries) and Chainlit chat interface.
 
-    - title: goETL Pipeline
+    - title: goETL
       color: red
-      date: Since 2024
+      date: 2024 –
       link: https://github.com/mattjh1/goetl
       description: |
-        High-performance ETL pipeline written in Go for RAG solutions.
-        Supports chunked text processing, embedding model integration, and
-        multiple database backends (Redis, PostgreSQL). Designed for
-        concurrent data handling and scalable RAG system implementations.
+        High-performance ETL pipeline in Go. Concurrent data processing,
+        embedding model integration, multi-database support.
 
-    - title: PSI-Map - PageSpeed Insights Analyzer
+    - title: PSI-Map
       color: red
-      date: Since 2025
+      date: 2025 –
       link: https://github.com/mattjh1/psi-map
       description: |
-        Command-line tool for batch PageSpeed Insights analysis using
-        sitemap.xml files. Built in Go with concurrent processing,
-        intelligent caching, multiple output formats, and comprehensive
-        CI/CD pipeline with automated builds and cross-platform releases.
-
-    - title: AI Developer Tool
-      color: red
-      date: Since 2024
-      description: |
-        Collaborated with a diverse team to develop AI-powered developer
-        tools, focusing on a robust RAG (Retrieval-Augmented Generation)
-        application. Integrated ETL processes, multiple data sources, and
-        hybrid search using Elasticsearch for efficient retrieval.
-        Fine-tuned models for complex queries, ensuring scalability and
-        low-latency execution.
-
-    - title: Resource Supply System
-      color: red
-      date: Since 2022
-      description: |
-        Streamlined workflow system for electrical components reseller using
-        AngularJS, Neo4j, and AWS stack. Includes CI/CD pipelines, Lambda
-        functions, IoT Core, and SageMaker integrations.
-
-    - title: RAG + GenAI Proof of Concept
-      color: red
-      date: Since 2022
-      description: |
-        Q/A solution integrating large documentation datasets using LangChain
-        for prompt engineering, FAISS for similarity search, and Chainlit for
-        frontend interface. Demonstrated effective GenAI application in
-        enterprise knowledge management.
-
-    - title: IoT Sensor Application
-      color: red
-      date: Since 2022
-      description: |
-        Team collaboration on fullstack IoT application for beekeepers to
-        monitor connected beehives. AWS-hosted solution with advanced IoT
-        features and real-time monitoring capabilities.
-
-    - title: Dotfiles Setup
-      color: red
-      date: Since 2023
-      link: https://github.com/mattjh1/dotfiles
-      description: |
-        Automated development environment setup using Ansible, chezmoi, and
-        Go templates. Supports macOS and Linux with 1Password integration for
-        secure credential management. Single-command environment recreation
-        for rapid system adaptation.
+        CLI tool for batch PageSpeed Insights analysis in Go. Features caching,
+        concurrent processing, multi-format output, CI/CD automation.
 
   certifications:
-    - certName: KCNA Kubernetes and Cloud Native Associate
+    - certName: KCNA — Kubernetes and Cloud Native Associate
       color: green
-      company: The Linux Foundation
-      date: January 31, 2025
+      company: Linux Foundation
+      date: Jan 2025
       badge: https://www.credly.com/badges/5e030c4c-4f9f-432f-9754-b92b842eda0c
       description: |
-        Foundational knowledge of Kubernetes and cloud-native technologies,
-        including container orchestration, networking, security principles,
-        and CNCF ecosystem understanding. Validates practical skills in
-        application deployment and cluster architecture.
+        Validates knowledge of Kubernetes, container orchestration, cloud-native
+        networking, security principles, and CNCF ecosystem.
