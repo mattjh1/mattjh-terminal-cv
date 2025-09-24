@@ -45,8 +45,8 @@ params:
       date: Aug 2022 – Present
       description: |
         • Designed and deployed an AI-enabled developer platform on Backstage.io,
-          adopted by thousands of engineers, improving onboarding time from weeks
-          to days.
+          achieving 1,000+ daily active users and 100% month-over-month
+          growth (11,000 monthly visits), improving onboarding time from weeks to days.
         • Built custom plugins for AI service discovery, governance/compliance,
           and feedback collection using Node.js/TypeScript; increased self-service
           adoption across engineering teams.
@@ -134,9 +134,10 @@ params:
       color: red
       date: 2024 –
       description: |
-        Enterprise Backstage.io platform with AI integrations and custom plugins
-        (subscription mgmt, feedback collection, governance). Improved developer
-        workflows with GenAI-enhanced automation.
+        Enterprise Backstage.io platform with AI integrations and custom plugins,
+        scaling to 1,000+ daily active developers with 100% month-over-month growth.
+        Improved developer workflows with GenAI-enhanced automation across
+        multiple engineering teams.
 
     - title: gRAG Pipeline
       color: red
