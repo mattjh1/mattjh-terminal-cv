@@ -38,11 +38,23 @@ params:
       url: "https://www.linkedin.com/in/mattias-holmgren-b2407714a/"
 
   work:
+    - jobTitle: Fullstack Developer
+      color: green
+      company: "COPE | Kommunresurs"
+      location: Remote (Oskarshamn)
+      date: Jan 2026 – Present
+      description: |
+        • Building annual and consolidated financial statements SaaS for Swedish
+          public sector, with expansion into Norway underway.
+        • Small team, high ownership — contributing across the full stack in
+          a modern TypeScript/React/PostgreSQL environment on Google Cloud.
+        • Infrastructure managed with Pulumi IaC.
+
     - jobTitle: Software Engineer | Solution Consultant
       color: red
       company: "tietoevry"
       location: Kalmar
-      date: Aug 2022 – Present
+      date: Aug 2022 – Jan 2026
       description: |
         • Designed and deployed an AI-enabled developer platform on Backstage.io,
           achieving 1,000+ daily active users and 100% month-over-month
