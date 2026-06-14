@@ -46,9 +46,14 @@ params:
       description: |
         • Building annual and consolidated financial statements SaaS for Swedish
           public sector, with expansion into Norway underway.
+        • Streamlined task management UX with a bulk action bar, 
+          reducing repetitive one-by-one operations (delete, move, tagging)
+          to a single multi-select workflow.
+        • Initiated and delivered a Go rewrite of the core report calculation service,
+          reducing response times from 6–10s to 2–3s and payload size by ~78%
+          via a compact wire format with deduplicated lookup tables.
         • Small team, high ownership — contributing across the full stack in
           a modern TypeScript/React/PostgreSQL environment on Google Cloud.
-        • Infrastructure managed with Pulumi IaC.
 
     - jobTitle: Software Engineer | Solution Consultant
       color: red
@@ -56,7 +61,7 @@ params:
       location: Kalmar
       date: Aug 2022 – Jan 2026
       description: |
-        • Designed and deployed an AI-enabled developer platform on Backstage.io,
+        • Worked on an AI-enabled Backstage.io developer platform,
           achieving 1,000+ daily active users and 100% month-over-month
           growth (11,000 monthly visits), improving onboarding time from weeks to days.
         • Built custom plugins for AI service discovery, governance/compliance,
