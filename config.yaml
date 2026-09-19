@@ -52,6 +52,8 @@ params:
         • Initiated and delivered a Go rewrite of the core report calculation service,
           reducing response times from 6–10s to 2–3s and payload size by ~78%
           via a compact wire format with deduplicated lookup tables.
+        • Migrated CI/CD from GitLab-hosted to self-hosted GCP runners, cutting
+          pipeline times ~40% (test suite -56%) and infrastructure cost 3x.
         • Small team, high ownership — contributing across the full stack in
           a modern TypeScript/React/PostgreSQL environment on Google Cloud.
 
